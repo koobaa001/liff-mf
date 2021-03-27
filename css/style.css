@@ -1,17 +1,20 @@
 .divTitle{
   width: 100%;
+  height: 110px;
 }
 
 .divBtn{
-  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  
 }
 
-button {
-  display: block;
+.btnMenu{
+  margin: 20px;
+  padding: 30px 0px;
   width: 100%;
-  padding: 8px 0;
-  margin: 8px auto
-}
+} 
 
 p {
   border-bottom: 1px dashed #ddd
@@ -38,4 +41,8 @@ p {
 #accessToken, #utouId {
   display: block;
   overflow: auto
+}
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
 }
