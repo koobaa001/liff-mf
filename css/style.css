@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.divBtn{
+  display: inline-block;
+}
+
 button {
   display: block;
   width: 100%;
